@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-color: #E9F2F1;
+}
+
+nav {
+    background-color: #559CDA;
+    height: 4.65vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav #home {
+    background-color: #F7F7F7;
+    color: #559CDA;
+}
+
+nav ul li {
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 1.4vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    cursor: pointer;
+    border-radius: 10vw;
+}
+
+nav ul li:hover {
+    transition: .5s;
+    background-color: #F7F7F7;
+    color: #559CDA;
+}
+
+nav #home {
+    margin-left: 2vw;
+}
+
+nav ul li:not(#publicacoes) {
+    margin-right: 2vw;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+#dots {
+    margin-right: 1.5vw;
+}
+
+#dots,
+#bell {
+    height: 2.6vw;
+}
+
+#avatar {
+    height: 3.5vw;
+}
+
+main {
+    height: 130vh; 
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 6vw;
+    background-color: #559CDA;
+    clear: both;
+}
+
+footer ul li {
+    list-style: none;
+    color: #FFFFFF;
+    font-size: 1vw;
+}
+
+#fortes {
+    height: 5vw;
+}
+
+
+.container-1 {
+    margin-top: 100px;
+    margin-left: 200px;
+  }
+  
+  #usuario {
+    float: left;
+    margin-left: 60px;
+    height: 150px;
+    margin-top: 58px;
+  }
+  
+  .title {
+    margin-bottom: 10px;
+  }
+  
+  .post {
+    background-color: #E5E3E3;
+    border-radius: 15px;
+    padding: 20px;
+    width: 37%;
+  }
+  
+  .post-author {
+    margin-bottom: 10px;
+    margin-left: 10px; 
+  }
+  
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 1200px;
+  }
+  
+  #coracao,
+  #chat,
+  #share {
+    margin-left: 19px;
+  }
+  
+  #usuario-2 {
+    float: left;
+    margin-left: 60px;
+    height: 150px;
+    margin-top: 18px;
+  }
+  
+  .feed-2,
+  .feed-3,
+  .feed-4 {
+    margin-top: -50px; 
+  }
+  
+  .container-1 {
+    margin-top: 100px;
+    margin-left: 200px;
+    padding: -200px; 
+  }
+  
+  .titulo-2 {
+    position: absolute;
+    top: 200px;
+    margin-left: 1100px; 
+  }
+  
+  .funcionario-1 {
+    position: absolute;
+    top: 260px;
+    margin-left: 850px; 
+  }
+  
+  .primeiro-nome {
+    position: absolute;
+    top: 300px;
+    margin-left: 1200px; 
+  }
+  
+  .numero {
+    position: absolute;
+    top: 300px;
+    margin-left: 800px;  
+  }
+  
+  .funcionario-2 {
+    position: absolute;
+    top: 400px;
+    margin-left: 850px;  
+  }
+  
+  .segundo-nome {
+    position: absolute;
+    top: 450px;
+    margin-left: 1200px; 
+  }
+  
+  .numero-2 {
+    position: absolute;
+    top: 445px;
+    margin-left: 800px;    
+  }
+  
+  .funcionario-3 {
+    position: absolute;
+    top: 546px;
+    margin-left: 850px; 
+  }
+  
+  .numero-3 {
+    position: absolute;
+    top: 590px;
+    margin-left: 800px;   
+  }
+  
+  .terceiro-nome {
+    position: absolute;
+    top: 600px;
+    margin-left: 1200px; 
+  }
+  
+  .funcionario-4 {
+    position: absolute;
+    top: 700px;
+    margin-left: 850px; 
+  }
+  
+  .numero-4 {
+    position: absolute;
+    top: 740px;
+    margin-left: 800px;
+  }
+  
+  .quarto-nome {
+    position: absolute;
+    top: 750px;
+    margin-left: 1200px; 
+  }
+  
